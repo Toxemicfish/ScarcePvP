@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScarcePvP:jar">
+    <output-path>$PROJECT_DIR$/../../../1.8.8Server/plugins</output-path>
+    <root id="archive" name="ScarcePvP.jar">
+      <element id="module-output" name="ScarcePvP" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Minecraft/Plugins/Server Builds/spigot-1.8.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
