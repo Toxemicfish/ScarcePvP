@@ -1,10 +1,11 @@
 package com.scarce.pvp;
 
+import com.scarce.pvp.commands.TeamCommands;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin{
+public class Core extends JavaPlugin {
 
-    private static Main instance;
+    private static Core instance;
 
     @Override
     public void onEnable() {
@@ -21,13 +22,14 @@ public class Main extends JavaPlugin{
     }
 
     private void registerCommands() {
+        getCommand("team").setExecutor(new TeamCommands(this));
     }
 
     private void registerEvents() {
     }
 
-    public static Main getInstance() {
+    public static Core getInstance() {
         return instance;
     }
-    
+
 }

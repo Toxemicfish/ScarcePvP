@@ -1,0 +1,8 @@
+name: ScarcePvP
+version: 1.0.0
+main: com.scarce.pvp.Core
+author: Toxemicfish
+commands:
+    team:
+      description: ScarcePvP command
+      usage: /<command>
